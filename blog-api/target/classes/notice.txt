@@ -1,0 +1,3 @@
+写xml文件目录一定要注意用斜杠/而不是.不然会出现找不到配置文件的问题
+比如这里显示的是com.wxy.blog.mapper但创建的时候写的是com/wxy/blog/dao/mapper
+在java下建的是包package用的是点，在resources下建立的是目录directory用的是斜线，用点在目录中显示的其实是一个目录的目录名带点
